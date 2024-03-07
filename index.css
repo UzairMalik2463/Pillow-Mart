@@ -1,0 +1,150 @@
+.dropdown-menu{
+    background-color: rgba(176,142,173,255);
+}
+.search-logo,.cart-logo,.menu{
+    width: 17px;
+}
+.search-button{
+    border: none;
+    background-color: transparent;
+}
+.cart-button{
+    border: none;
+    background-color: transparent;
+}
+.purple-btn{
+    background-color: rgba(176,142,173,255);
+}
+.banner{
+    width: 650px;
+    height: 550px;
+}
+.outline-btn{
+    background-color: transparent;
+    border: 1px solid rgba(176,142,173,255);
+    color: rgba(176,142,173,255);
+}
+@media (max-width:1115px) {
+    .banner{
+        width: 485px;
+        height: 350px;
+    }
+}
+
+@media (max-width:991px) {
+    .banner{
+        width: 485px;
+        height: 350px;
+    }
+}
+
+@media (max-width:515px) {
+    .banner{
+        width: 350px;
+        height: 350px;
+    }
+}
+.product-1{
+    width: 470px;
+    height: 400px;
+    position: absolute;
+    z-index: 3;
+}
+.background{
+    background-color:rgba(176,142,173,255);
+    width: 370px;
+    height: 400px;
+    position:relative;
+    left: -20px;
+    top: -15px;
+    z-index: 1;
+}
+
+.background-2{
+    background-color:rgba(176,142,173,255);
+    width: 370px;
+    height: 400px;
+    position:relative;
+    left: 120px;
+    top: -17px;
+    z-index: 1;
+}
+@media (max-width:515px) {
+    .product-1{
+        width: 350px;
+    }
+    .background-2{
+        width: 240px;
+    }
+}
+.trending-items-container{
+    background-color: rgb(230, 223, 230);
+}
+.trending-items-container>h1{
+    color: rgb(58, 3, 58);
+}
+.trending-img{
+    max-width: 100%;
+}
+.card-img{
+    width: 70px;
+}
+.card-borders{
+    border: 1px solid rgba(176,142,173,255);
+}
+.big-div{
+    background-color: rgb(36, 5, 36);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.subscribe-btn{
+    background-color: rgb(151, 102, 151);
+}
+.d-flex > input{
+    border: none;
+    color: white;
+}
+.d-flex > input:focus {
+    outline: none; 
+    border: none; 
+}
+.social-logo{
+    width: 40px;
+}
+.carousel-background{
+    height: 500px;
+    max-width: 1364px;
+    background-color: rgb(211, 147, 211);
+}
+.search-slider {
+    height: 40px;
+    max-width: 1000px;
+    background-color: rgb(184, 92, 184);
+    display: none;
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.search-slider > input {
+    max-width: 940px; 
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    display: none;
+}
+
+
+.search-slider > input:focus {
+    outline: none; 
+    border: none; 
+}
+#closeButton {
+    display: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
